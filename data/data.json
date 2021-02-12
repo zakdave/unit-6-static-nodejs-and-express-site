@@ -7,7 +7,7 @@
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://zakdave.github.io/unit-1-quote-generator/",
             "github_link": "https://github.com/zakdave/unit-1-quote-generator",
-            "image_urls": ""
+            "image_urls": ["img/unit-1-img.jpg", "img/unit-1-img-2.jpg"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
             "live_link": "https://zakdave.github.io/unit-2-data-pagnination-and-filtering/",
             "github_link": "https://github.com/zakdave/unit-2-data-pagnination-and-filtering",
-            "image_urls": ""
+            "image_urls": ["img/unit-2-img.jpg", "img/unit-2-img-2.jpg"]
         }, 
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
             "live_link": "https://zakdave.github.io/unit-2-data-pagnination-and-filtering/",
             "github_link": "https://github.com/zakdave/unit-2-data-pagnination-and-filtering",
-            "image_urls": ""  
+            "image_urls": ["img/unit-3-img.jpg", "img/unit-3-img-2.jpg"]  
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
             "live_link": "https://zakdave.github.io/unit-4-oop-phrase-game/",
             "github_link": "https://github.com/zakdave/unit-4-oop-phrase-game",
-            "image_urls": ""  
+            "image_urls": ["img/unit-4-img.jpg", "img/unit-4-img-2.jpg"]  
         }, 
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
             "live_link": "https://zakdave.github.io/unit-5-public-api-requests/",
             "github_link": "https://github.com/zakdave/unit-5-public-api-requests",
-            "image_urls": ""  
+            "image_urls": ["img/unit-5-img.jpg", "img/unit-5-img-2.jpg"]  
         }
     ]
 }
