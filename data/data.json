@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A basic random quote generator with a functional 'Show new quote' button.",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://zakdave.github.io/unit-1-quote-generator/",
+            "github_link": "https://github.com/zakdave/unit-1-quote-generator",
+            "image_urls": ""
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A basic random quote generator with a functional 'Show new quote' button.",
+            "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
+            "live_link": "https://zakdave.github.io/unit-2-data-pagnination-and-filtering/",
+            "github_link": "https://github.com/zakdave/unit-2-data-pagnination-and-filtering",
+            "image_urls": ""
+        }, 
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Using JavaScript to condense a too-large single page of students into multiple, digestable pages",
+            "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
+            "live_link": "https://zakdave.github.io/unit-2-data-pagnination-and-filtering/",
+            "github_link": "https://github.com/zakdave/unit-2-data-pagnination-and-filtering",
+            "image_urls": ""  
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter OOP Game",
+            "description": "Using JavaScript to condense a too-large single page of students into multiple and digestable pages",
+            "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
+            "live_link": "https://zakdave.github.io/unit-4-oop-phrase-game/",
+            "github_link": "https://github.com/zakdave/unit-4-oop-phrase-game",
+            "image_urls": ""  
+        }, 
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Using JavaScript to condense a too-large single page of students into multiple and digestable pages",
+            "technologies": ["JS", "CSS", "HTML", "DOM Traversal", "Click Events", "Anonymous Functions"],
+            "live_link": "https://zakdave.github.io/unit-5-public-api-requests/",
+            "github_link": "https://github.com/zakdave/unit-5-public-api-requests",
+            "image_urls": ""  
+        }
+    ]
+}
