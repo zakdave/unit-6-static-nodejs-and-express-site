@@ -18,6 +18,26 @@ app.get('/about', (req, res, next) => {
     res.render('about');
 })
 
+app.get('/project/:id', (req, res)=> {
+    const projectId = req.params.id;
+    const project = projects.find(({id}) => id === + projectId);
+    res.render('project', {project});
+});
+
+app.use((req, res, next) => {
+    const err = new Error('404 not found bud');
+    err.status = 404;
+    err.message = "The page you have dialed is not available at this time. "
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    if (err) {
+        console.log(`Global error handler called: ${err.status}. ${err.message}`);
+        res.render('404');
+    }
+});
+
 
 //Host on port 3000
 app.listen(3000, () => console.log('App is running on port 3000'));
