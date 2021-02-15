@@ -24,6 +24,7 @@ app.get('/project/:id', (req, res)=> {
     res.render('project', {project});
 });
 
+//Handle 404 errors
 app.use((req, res, next) => {
     const err = new Error('404 not found bud');
     err.status = 404;
@@ -32,8 +33,8 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    if (err) {
-        console.log(`Global error handler called: ${err.status}. ${err.message}`);
+    if (err.status || err.status === undefined) {
+        console.log(`404 Error Handler called:\n\n${err.status} - ${err.message}`);
         res.render('404');
     }
 });
