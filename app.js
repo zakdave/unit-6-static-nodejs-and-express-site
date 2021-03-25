@@ -1,5 +1,6 @@
 const express = require('express');
 const {projects} = require('./data/data.json');
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -28,19 +29,19 @@ app.get('/project/:id', (req, res)=> {
 app.use((req, res, next) => {
     const err = new Error('404 not found bud');
     err.status = 404;
-    err.message = "The page you have dialed is not available at this time. "
+    err.message = "The page is not available at this time. "
     next(err);
 });
 
 app.use((err, req, res, next) => {
-    if (err.status || err.status === undefined) {
+    if (err.status === 404 || err.status === undefined) {
         console.log(`404 Error Handler called:\n\n${err.status} - ${err.message}`);
         res.render('404');
     }
 });
 
 
-//Host on port 3000
-app.listen(3000, () => console.log('App is running on port 3000'));
+//Host on port process.env or default port 3000
+app.listen(port, () => console.log(`App is running on port ${port}`));
 
 
