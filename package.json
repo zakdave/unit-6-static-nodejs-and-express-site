@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines" : {
-    "node" : "14.15.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakdave/unit-6-static-nodejs-and-express-site.git"
