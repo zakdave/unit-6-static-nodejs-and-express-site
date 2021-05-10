@@ -41,6 +41,7 @@ app.use((err, req, res, next) => {
 
 
 //Host on port 3000
-app.listen(3000, () => console.log('App is running on port 3000'));
+const port = process.env.port || 3000;
+app.listen(port, () => console.log(`App is running on port ${port}`));
 
 
