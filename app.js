@@ -33,15 +33,14 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    if (err.status === 404 || err.status === undefined) {
+    if (err.status || err.status === undefined) {
         console.log(`404 Error Handler called:\n\n${err.status} - ${err.message}`);
         res.render('404');
     }
 });
 
 
-//Host on port 3000 or env port
-const port = process.env.port || 3000;
-app.listen(port, () => console.log('App is running on port 3000'));
+//Host on port 3000
+app.listen(3000, () => console.log('App is running on port 3000'));
 
 
